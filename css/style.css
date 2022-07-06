@@ -20,12 +20,14 @@ body{
  text-align: center;
  background-repeat: no-repeat;
  background-size: cover;
-color: #fff;
+ color: #fff;
 
  
 }
 .section_wrapping{
-  padding: 100px 0;
+  padding: 50px 0;
+  text-align: center;
+  
 }
 .container{
  margin: 0 auto;
@@ -33,7 +35,7 @@ color: #fff;
 }
 .header__title{
     font-size: 55px;
-    margin-top: 55px;
+    margin-top: 155px;
 }
 .common__btn{
     background: #FF5959;
@@ -62,7 +64,7 @@ color: #fff;
  display: flex;
  align-items: center;
  justify-content: center;
- padding: 30px 0px;
+ padding: 30px 30px;
 }
 .donate__amaount{
     height: 100px;
@@ -74,6 +76,7 @@ color: #fff;
     align-items: center;
     justify-content: center;
     box-shadow: 4px 4px 10px #efefef;
+    border-radius: 5px;
 
 
 }
@@ -98,4 +101,43 @@ color: #fff;
     text-align: center;
     font-size: 16px;
     color: #DADADA;
+}
+.donate__active{
+    border: 2px solid #FF9191;
+    background: #FFEEEE;
+}
+.donate__active p{
+  color: #FF9191;
+}
+/* donate Plan section */
+.donate__card{
+    display: flex;
+    height: 350px;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 33%;
+    border-radius: 10px;
+
+}
+.donate__card:nth-child(1){
+    background: #EDF5F6;
+}
+.donate__card:nth-child(2){
+    background: #FFEEEE;
+}
+.donate__card:nth-child(3){
+    background: #FFF4D6;
+}
+.inner__content{
+  text-align: left;
+}
+.card__title{
+    font-size: 25px;
+    margin: 15px 0;
+}
+.card__p{
+    font-size: 15px;
+    color: #707070;
 }
