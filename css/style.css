@@ -47,3 +47,55 @@ color: #fff;
 .common__p{
     font-size: 16px;
 }
+
+/* donate section */
+.donate__container{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.common__title{
+    font-size: 45px;
+    color: #121212;
+}
+.flex_div{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 30px 0px;
+}
+.donate__amaount{
+    height: 100px;
+    width: 120px;
+    margin: 0 20px;
+    background-color: #FAFAFA;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 10px #efefef;
+
+
+}
+.donate__amaount p{
+    font-size: 22px;
+    font-weight: bold;
+    color: #707070;
+}
+.input__box{
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #DADADA;
+   
+}
+.amount__input{
+    height: 50px;
+    border: none;
+    outline: none;
+}
+.amount__input::placeholder{
+    text-align: center;
+    font-size: 16px;
+    color: #DADADA;
+}
