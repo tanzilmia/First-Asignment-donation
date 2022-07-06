@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -43,7 +43,8 @@ body{
     color: #fff;
     font-weight: bold;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 3px 4px #e37979;
     
 }
 .common__p{
@@ -80,6 +81,7 @@ body{
 
 
 }
+
 .donate__amaount p{
     font-size: 22px;
     font-weight: bold;
@@ -236,6 +238,8 @@ body{
 .from__subscribe{
    display: flex;
    width: 350px;
+   background: #FFF4D6;
+   width: 400px;
 }
 
     .from__subscribe input{
@@ -244,6 +248,8 @@ body{
         border: none;
         outline: none;
         background: #D9D9D9;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
     .from__subscribe input::placeholder{
         font-weight: 400;
@@ -258,4 +264,21 @@ body{
         background: #FF5959;
         cursor: pointer;
         color: #fff;
+        font-size: 16px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
     }
+    .footer{
+      width: 100%;
+      text-align: center;
+      padding: 50px;
+      background: #0B0D17;
+    }
+    .footer h1{
+      color: #FF5959;
+      font-family: 'Lobster', cursive;
+    }
+    .footer p{
+     color: #B2B4BB;
+    }
+  
